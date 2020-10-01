@@ -30,7 +30,9 @@ int main(){
 	cin>>sum;
 	// int a[5]={1,5,10,20,100};
 	// cout<<solve(a,5,sum);
-	int m=0;
+	/*
+    Greedy Approach
+    int m=0;
 	if(sum/100){
 		m+=(sum/100);
 		sum-=(sum/100)*100;
@@ -49,4 +51,5 @@ int main(){
 	}
 	m+=sum;
 	cout<<m;
+    */
 }
